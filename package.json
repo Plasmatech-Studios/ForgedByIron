@@ -1,0 +1,7 @@
+{
+  "name": "fbi-fit",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "author": "Pete & Alistair",
+  "license": "MIT"
+}
