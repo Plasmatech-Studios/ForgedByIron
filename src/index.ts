@@ -16,15 +16,12 @@ app.use(bodyParser.json())
 const routes = setUpRouter();
 
 // redirect to routes/index.js
-// app.use('/', route);
+app.use('/', routes);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
     console.log(`server is running on port ${port}`);
 
-    setInterval(() => {
-        console.log('its still here')
-    }, 30000)
 });
 
 
